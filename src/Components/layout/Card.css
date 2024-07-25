@@ -1,0 +1,23 @@
+.card {
+  border: 3px solid rgb(196, 196, 196);
+  border-radius: 10px;
+  font-size: 20px;
+  width: 300px;
+  min-height: 200px;
+  overflow: hidden;
+  display: grid;
+}
+.card .conteudo {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+.card .footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
